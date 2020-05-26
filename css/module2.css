@@ -1,0 +1,99 @@
+/**** This is the main CSS stylesheet for the Module 2 Assignment.  ****/
+/********** Pawanbir Singh **********/
+
+/********** Base styles **********/
+*
+* { box-sizing: border-box ; }
+	
+    h1 { margin-bottom: 20px; 
+        text-align: center;
+        font-size: 175%; }
+	
+    div { background-color: lightblue; }
+    
+     p { position: relative; 
+         margin: 0;
+         width: 100%;
+         height: 210px;
+         font-size: 15px;
+         padding-top: 41px;
+         padding-bottom: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border: 3px solid black; 
+       }
+	#a1 { position: relative;
+          float: right;
+          border :  2px solid black ;
+          padding: 10px; 
+          margin-bottom:  10px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-right: 30px;
+          padding-left: 10px;
+          background-color: red;
+          text-align: center;
+          font-family: "Times New Roman", Times, serif;
+          font-size: 125%;
+          width: 150px;
+          height: 30px;
+          font-weight: bold;
+      }
+	
+    #a2 { position: relative;
+          float: right;
+          border :  2px solid black ;
+          padding: 10px; 
+          margin-bottom:  10px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-right: 30px;
+          padding-left: 10px;
+          background-color: blue;
+          text-align: center;
+          font-family: "Times New Roman", Times, serif;
+          font-size: 90%;
+          width: 150px;
+          height: 30px;
+          font-weight: bold;
+      }
+    #a3 { position: relative;
+          float: right;
+          border :  2px solid black ;
+          padding: 10px; 
+          margin-bottom:  10px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-right: 30px;
+          padding-left: 10px;
+          background-color: green;
+          text-align: center;
+          font-family: "Times New Roman", Times, serif;
+          font-size: 90%;
+          width: 150px;
+          height: 30px;
+          font-weight: bold;
+      }
+
+     @media (min-width: 992px)
+     {  .P1,.P2,.P3 { margin : 5px;  float: left; border: 1px solid black; }
+        .P1 {  width: 32%;}
+        /*.P2 {width: 32%;}
+         .P3 {width: 32%;}*/
+     }
+
+     @media (min-width: 768px ) and (max-width: 991px)
+      {  .p1a,.p2a,.p3a { float: left ; font-size: 90%; margin: 5px; border: 1px solid black;}
+         .p1a {width: 48.5% ;}
+         .p2a {width: 48.5% ;}
+         .p3a {clear: both ; width: 98.1%; }}
+         @media (max-width: 767px)
+
+         { .a1m {float: left;
+           border: 1px solid black;
+           margin : 20px ; 
+           clear: both ;
+           width: 80%; 
+           margin-left: 40px; }
+     
+     }
